@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.todo-app {
+    background: #ffffff;
+    width: 360px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.input-section input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.input-section button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.task-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.task-list li {
+    background: #f3f4f6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-list li span {
+    cursor: pointer;
+}
+
+
+.task-list li.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-list li button {
+    background: #e53e3e;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+body.dark {
+    background: #121212;
+}
+
+body.dark .todo-app {
+    background: #1e1e1e;
+    color: white;
+}
+
+body.dark input {
+    background: #2c2c2c;
+    color: white;
+    border: 1px solid #444;
+}
+
+body.dark .task-list li {
+    background: #2c2c2c;
+}
+
+body.dark .input-section button {
+    background: #4c51bf;
+}
