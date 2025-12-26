@@ -1,0 +1,76 @@
+🧪 Sample Usage (Step-by-Step)
+🔹 Step 1: Add a Task
+
+Type a task in the input box:
+
+Buy groceries
+
+
+Click the Add button
+OR press the Enter key on your keyboard
+
+Result:
+
+Buy groceries      [Delete]
+
+🔹 Step 2: Mark a Task as Completed
+
+Click on the task text “Buy groceries”
+
+❌ Do not click the Delete button
+
+Result:
+
+̶B̶u̶y̶ ̶g̶r̶o̶c̶e̶r̶i̶e̶s̶      [Delete]
+
+
+✔ A line-through (strike) appears on the task
+✔ This indicates that the task is completed
+
+🔹 Step 3: Undo a Completed Task
+
+Click on the same task text again
+
+Result:
+
+Buy groceries      [Delete]
+
+
+✔ The line-through is removed
+✔ The task returns to its normal state
+
+🔹 Step 4: Dark Mode Toggle (🌙 / ☀️)
+
+Click the 🌙 icon at the top-right corner of the app
+
+Result:
+
+The background changes to dark colors
+
+The app switches to Dark Mode
+
+The icon changes to ☀️
+
+Click the ☀️ icon again
+
+Result:
+
+The app switches back to Light Mode
+
+🎯 Full Sample Session
+Add Tasks:
+✔ Learn JavaScript
+✔ Practice CSS
+✔ Build To-Do App
+
+Click "Learn JavaScript" → Marked as completed
+Click again → Completion undone
+Click 🌙 → Dark Mode enabled
+
+✅ Notes
+
+Click on the task text to mark it as completed or undo it
+
+The Delete button permanently removes a task
+
+Dark Mode improves the user experience in low-light environments
